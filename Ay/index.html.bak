@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>18CJ024105 Ariyo</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        img {
+            width: 30rem;
+            /* height: 30rem; */
+        }
+
+        .data {
+            margin: 5rem 5rem;
+        }
+
+        .data-container {
+            display: grid;
+            grid-template-columns: repeat(2, auto);
+        }
+    </style>
+</head>
+<body>
+    <h1>CEN 414 Data Visualization Project - 18CJ024105 Ariyo Michael Ayomide</h1>
+    <h1>Population of African countries</h1>
+    <div class="data-container">
+        <div class="data">
+            <h2>Data for 2010</h2>
+            <img src="output_2010.png" alt="">
+        </div>
+        <div class="data">
+            <h2>Data for 2011</h2>
+            <img src="output_2011.png" alt="">
+        </div>
+        <div cl ass="data">
+            <h2>Data for 2012</h2>
+            <img src="output_2012.png" alt="">
+        </div>
+        <div class="data">
+            <h2>Data for 2013</h2>
+            <img src="output_2013.png" alt="">
+        </div>
+        <div class="data">
+            <h2>Data for 2014</h2>
+            <img src="output_2014.png" alt="">
+        </div>
+        <div class="data">
+            <h2>Data for 2015</h2>
+            <img src="output_2015.png" alt="">
+        </div>
+        <div class="data">
+            <h2>Data for 2016</h2>
+            <img src="output_2016.png" alt="">
+        </div>
+        <div class="data">
+            <h2>Data for 2017</h2>
+            <img src="output_2017.png" alt="">
+        </div>
+        <div class="data">
+            <h2>Data for 2018</h2>
+            <img src="output_2018.png" alt="">
+        </div>
+		<div class="data">
+            <h2>Data for 2019</h2>
+            <img src="output_2019.png" alt="">
+        </div>
+    </div>
+    <div class="data-container">
+        <div class="data">
+            <h2>Mean Graph</h2>
+            <img src="output_mean.png" alt="">
+        </div>
+        <div class="data">
+            <h2>Standard Deviation</h2>
+            <img src="output_stdev.png" alt="">
+        </div>
+        <div class="data">
+            <h2>Median</h2>
+            <img src="output_stkbr.png" alt="">
+        </div>
+        <div class="data">
+            <h2>Stacked Bar Chart</h2>
+            <img src="output_intrq.png" alt="">
+        </div>
+    </div>
+</body>
+</html>
